@@ -5,3 +5,4 @@ from .serializers import WeatherSerializer
 class WeatherViewSet(viewsets.ModelViewSet):
     queryset = Weather.objects.all()
     serializer_class = WeatherSerializer
+
